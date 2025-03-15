@@ -101,14 +101,16 @@ void Problem_2178()
 }
 */
 
+// PROBLEM 1167
+/*
+
 int vertices[100001][100001] = { 0 };
 
 void DFS_1167(std::unordered_set<int>& visited)
 {
-	
+
 }
 
-// PROBLEM 1167
 void Problem_1167()
 {
 	std::ios_base::sync_with_stdio(false);
@@ -139,9 +141,10 @@ void Problem_1167()
 
 	
 }
+*/
 
 void ExecuteGraph()
 {
 	//Problem_2178();
-	Problem_1167();
+	//Problem_1167();
 }
