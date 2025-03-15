@@ -817,7 +817,7 @@ void Problem_10845()
 */
 
 // PROBLEM 10799
-
+/*
 void Problem_10799()
 {
 	std::ios_base::sync_with_stdio(0);
@@ -846,10 +846,11 @@ void Problem_10799()
 
 	std::cout << result;
 }
+*/
 
 void ExecuteQueue()
 {
-	Problem_10799();
+	//Problem_10799();
 	//Problem_10845();
 	//Problem_2075();
 	//Problem_18258();

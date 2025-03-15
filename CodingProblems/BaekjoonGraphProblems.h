@@ -101,7 +101,47 @@ void Problem_2178()
 }
 */
 
+int vertices[100001][100001] = { 0 };
+
+void DFS_1167(std::unordered_set<int>& visited)
+{
+	
+}
+
+// PROBLEM 1167
+void Problem_1167()
+{
+	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+
+	int verticeCount;
+	int vertexNumber;
+	std::pair<int, int> input;
+
+	std::cin >> verticeCount;
+
+	std::vector<std::vector<std::pair<int, int>>> vertices;
+	vertices.reserve(verticeCount + 1);
+
+	for (int line = 0; line < verticeCount; ++line)
+	{
+		std::cin >> vertexNumber;
+		while (true)
+		{
+			std::cin >> input.first;
+			if (input.first == -1)
+				break;
+
+			std::cin >> input.second;
+			vertices[vertexNumber].emplace_back(input);
+		}
+	}
+
+	
+}
+
 void ExecuteGraph()
 {
 	//Problem_2178();
+	Problem_1167();
 }

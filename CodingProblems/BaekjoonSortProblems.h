@@ -968,6 +968,7 @@ void Problem_25305()
 */
 
 // PROBLEM 11659
+/*
 void Problem_11659()
 {
     std::ios_base::sync_with_stdio(false);
@@ -995,10 +996,11 @@ void Problem_11659()
 
     std::cout << output;
 }
+*/
 
 void ExecuteSort()
 {
-    Problem_11659();
+    //Problem_11659();
     //Problem_25305();
     //Problem_1377();
     //Problem_1377_Test();

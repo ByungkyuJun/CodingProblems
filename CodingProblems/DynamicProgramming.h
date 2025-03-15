@@ -93,7 +93,7 @@ void Problem_1003()
 */
 
 // PROBLEM 2239
-
+/*
 char BoardData[9][9];
 
 bool ProcessFunc(const std::vector<std::pair<char, char>>& emptySpotData, int index)
@@ -183,9 +183,13 @@ void Problem_2239()
 	std::cout << outputStr;
 }
 
+*/
+
 void Execute_DynamicProgramming()
 {
 	//Problem_1135();
 	//Problem_1003();
-	Problem_2239();
+	//Problem_2239();
+
+
 }
