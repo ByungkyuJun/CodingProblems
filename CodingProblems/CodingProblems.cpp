@@ -16,6 +16,7 @@
 #include "Math/Math.h"
 #include "DynamicProgramming.h"
 #include "Bit/Bit.h"
+#include "Programmers/Excersice_Hash.h"
 
 int main()
 {
@@ -37,5 +38,7 @@ int main()
     Execute_Math();
     Execute_DynamicProgramming();
     ExecuteBit();
+
+    Execute_Programmers_Hash();
 }
 
